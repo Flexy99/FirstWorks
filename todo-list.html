@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="root">
+        <div class="background">
+            <div class="top-bg"></div>
+            <div class="bottom-bg"></div>
+        </div>
+        <div class="content">
+            <section class="header">
+                <div class="title-theme">
+                    <h1>T O D O</h1>
+                    <input type="checkbox" id="swicth-1" class="theme-switch">
+                    <label for="swicth-1" id="switch" class="theme-switch-label"></label>
+                </div>
+            </section>
+            <div class="container">
+                <div class="todos-input">
+                    <div id='mark'></div>
+                    <form action="" class="form">
+                        <input id="todos" type="text" placeholder="create a new todolist...">
+                    </form>
+                </div>
+                <div class="my-todo-lists">
+                    <ul id="todo-list" class="todo-list"></ul>
+                </div>
+                <div class="controls">
+                    <p id="todo-left">items left</p>
+                    <div class="controls-list-div">
+                        <ul class="controls-list" data-lists>
+                            <li class="all-btn filter">All</li>
+                            <li class="active-btn filter">Active</li>
+                            <li class="completed-btn filter">Completed</li>
+                        </ul>
+
+                    </div>
+                    <div class="clear-completed">Clear Completed</div>
+                </div>
+                <div class="instruc">
+                    <p>Drag and drop to reorder list</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js "></script>
+</body>
+
+</html>

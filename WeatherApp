@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="content">
+            <div class="forecast ">
+                <div class="forecast-header ">
+                    <div class="forecast-heading ">
+                        <!-- <image class="sun "></image> -->
+                        <span>Weather</span>
+                    </div>
+                    <div class="degree-switchers ">
+                        <span class="fahrenheit-switcher">F&deg;</span>
+                        <span class="celcius-switcher">C&deg;</span>
+                    </div>
+
+                </div>
+                <div class="location-switcher ">
+                    <h4>Please enter a city</h4>
+                    <input class="search " type="text ">
+                    <div class="submit-btn ">Submit</div>
+                </div>
+                <div class="forecast-data ">
+                    <div class="data ">
+                        <div class="data-container ">
+                            <div>
+                                <div class="weather-description "> </div>
+                                <div class="temp-now"></div>
+                            </div>
+                            <div class="temp-container ">
+                                <div class="span-container ">
+                                    <span>feels like: </span>
+                                    <span class="feels-like "></span>
+                                </div>
+                                <div class="span-container ">
+                                    <span>humidity: </span>
+                                    <span class="weather-humidity "></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="backBtn">Go back!</button>
+                        <div class="data-container ">
+                            <div>
+                                <div class="time "> </div>
+                                <div class="days-month-number "> </div>
+                            </div>
+                            <div class="city "> </div>
+                        </div>
+                    </div>
+                    <div class="images-container ">
+                        <div class="weather-app-images "></div>
+                    </div>
+                </div>
+            </div>
+            <footer>&copy; 2022 Simple Weather Widget | Design by <span>Arsen Kantor</span></footer>
+        </div>
+    </div>
+</body>
+<script src="app.js "></script>
+
+
+</html>
